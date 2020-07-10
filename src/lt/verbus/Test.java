@@ -12,4 +12,8 @@ public class Test {
         this.name = name;
         this.age = age;
     }
+
+    public String getInfo(){
+        return "My name is " + name + " and my age is " + age;
+    }
 }
